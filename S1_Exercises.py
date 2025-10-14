@@ -18,3 +18,13 @@
 ## E3
 ## Realice un programa que permita determinar el tiempo en horas y minutos que corrió un atleta. Considerar que el reloj del atleta marca solo minutos
 ## Sugerencia: Usar division entera y modulo
+
+minutos_iniciales = 100
+horas -> 1:40 hrs
+
+minutos_restantes = minutos_iniciales % 60 -> 40
+horas_totales = minutos_iniciales // 60 -> 1
+print("El tiempo en horas y minutos del atleta es: ", horas_totales, ":", minutos_restantes)
+
+## Pendiente
+minutos_inciales2 = 227
